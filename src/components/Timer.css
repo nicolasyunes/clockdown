@@ -1,0 +1,83 @@
+.format-time {
+	display: flex;
+	flex-direction: row;
+
+	justify-content: center;
+	align-items: center;
+	gap: 2%;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	font: DS-DIGIT !important;
+}
+
+@font-face {
+	font-family: myFirstFont;
+	src: url("../assets/MapletonHill-FE/MapletonHill-FE/DS-DIGIB.TTF")
+		format("trueType");
+}
+
+.min-hour {
+	font-family: myFirstFont;
+	color: darkgrey;
+}
+
+h3 {
+	font-family: myFirstFont;
+	color: darkgrey;
+}
+
+.container-timer {
+	
+	width: 100%;
+	
+}
+
+.content-timer {
+	with: 100%;
+	border: beige 1px solid;
+	display: flex;
+    background:#313131;
+	flex-direction: column;
+
+}
+
+.display {
+	display: flex;
+	flex-direction: row;
+	height: 200px;
+}
+
+.display-timer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	background: #18181a;
+    border: 1px white solid;
+}
+
+.buttons-display {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4%;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	width: 40%;
+	font: DS-DIGIT !important;
+    background:#313131;
+}
+.container-controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	min-height: 120px;
+	width: 100%;
+	background-color: #313131;
+}
+
+
+
