@@ -6,8 +6,9 @@
 	align-items: center;
 	gap: 2%;
 	font-size: 18px;
-	border: 1px solid #ccc;
+	align-items: center;
 	font: DS-DIGIT !important;
+	
 }
 
 @font-face {
@@ -21,19 +22,35 @@
 	color: darkgrey;
 }
 
-h3 {
+.display-numbers {
 	font-family: myFirstFont;
 	color: darkgrey;
+	height:50%;
+	background:#18181a;
+	-moz-box-shadow: 0 0px 0px #4c4c4f;
+    -webkit-box-shadow: 0 0px 0px #4c4c4f;
+    box-shadow: 0 0.8px 0.8px #4c4c4f;
+	border-radius: 4px;
+	width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+
+
+	
 }
 
 .container-timer {
-	
+	background-color:#313131;
 	width: 100%;
+	box-shadow: 0px 1px 4px rgba(14, 31, 53, 0.12),
+	 0px 4px 18px rgba(40, 53, 14, 0.1), 0px 6px 12px rgba(98, 99, 100, 0.08);
 	
 }
 
 .content-timer {
-	with: 100%;
+	width: 100%;
 	border: beige 1px solid;
 	display: flex;
     background:#313131;
@@ -44,7 +61,8 @@ h3 {
 .display {
 	display: flex;
 	flex-direction: row;
-	height: 200px;
+	min-height: 200px;
+	padding:5% 5% 0% 5%;
 }
 
 .display-timer {
@@ -52,8 +70,11 @@ h3 {
 	flex-direction: column;
 	justify-content: center;
 	width: 60%;
-	background: #18181a;
-    border: 1px white solid;
+	background: #313131;
+	align-items: center;
+	
+
+    
 }
 
 .buttons-display {
@@ -63,7 +84,8 @@ h3 {
 	align-items: center;
 	gap: 4%;
 	font-size: 18px;
-	border: 1px solid #ccc;
+	min-width: 20%;
+	
 	width: 40%;
 	font: DS-DIGIT !important;
     background:#313131;
@@ -78,6 +100,41 @@ h3 {
 	width: 100%;
 	background-color: #313131;
 }
+
+
+.arrows-buttons{
+
+	display: flex;
+	flex-direction: row;
+	
+
+
+}
+
+.button-power{
+width: 100%;
+
+
+}
+
+.container-power{
+
+}
+
+.icon-clock{
+	width: 100px;
+	height: 100px;
+	display: flex;
+	color:red;
+	justify-content: center;
+	align-items: center;
+	background-color: #313131;
+	border-radius: 50%;
+	box-shadow: 0px 1px 4px rgba(14, 31, 53, 0.12),
+	 0px 4px 18px rgba(40, 53, 14, 0.1), 0px 6px 12px rgba(98, 99, 100, 0.08);
+	
+}
+
 
 
 
