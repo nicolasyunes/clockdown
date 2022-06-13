@@ -5,11 +5,12 @@ import styled from "styled-components";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import Switch from "@mui/material/Switch";
-import { ReactSVG } from "react-svg";
-import clocksvg from "../assets/MapletonHill-FE/MapletonHill-FE/clocksvg.svg";
 import down from "../assets/MapletonHill-FE/MapletonHill-FE/down.svg";
 import up from "../assets/MapletonHill-FE/MapletonHill-FE/up.svg";
 import clock from "../assets/MapletonHill-FE/MapletonHill-FE/clocksvg.svg";
+
+
+
 const Timer = () => {
 	const [time, setTime] = useState(100);
 	const [isRunning, setIsRunning] = useState(false);
@@ -103,7 +104,7 @@ const Timer = () => {
 						</span>
 					</div>
 				</section>
-
+				
 				<section className=" container-controls">
 					<StyledMinHr className="col-12 d-flex justify-content-center ">
 						<div className="min-hour">
@@ -138,7 +139,7 @@ const Timer = () => {
 
 export default Timer;
 
-//Estilo de los botones de la pantalla de hora/minutos con styled components
+//Estilo de los botones de la pantalla de hora/minutos con styled components - Material Ui (Modificar estos estilos)
 const StyledMinHr = styled.div`
 	.MuiSwitch-thumb {
 		background-image: -webkit-repeating-linear-gradient(
@@ -188,26 +189,7 @@ const StyledMinHr = styled.div`
 				hsla(0, 0%, 100%, 0.1) 7.5%,
 				hsla(0, 0%, 100%, 0) 9%
 			),
-			-webkit-repeating-linear-gradient(left, hsla(0, 0%, 0%, 0) 0%, hsla(
-							0,
-							0%,
-							0%,
-							0
-						)
-						4%, hsla(0, 0%, 0%, 0.03) 4.5%, hsla(0, 0%, 0%, 0) 6%),
-			-webkit-repeating-linear-gradient(left, hsla(0, 0%, 100%, 0) 0%, hsla(
-							0,
-							0%,
-							100%,
-							0
-						)
-						1.2%, hsla(0, 0%, 100%, 0.15) 2.2%, hsla(0, 0%, 100%, 0) 4%),
-			-webkit-linear-gradient(-90deg, hsl(0, 0%, 78%) 0%, hsl(0, 0%, 90%) 47%, hsl(
-							0,
-							0%,
-							78%
-						)
-						53%, hsl(0, 0%, 70%) 100%);
+			
 	}
 	.MuiSlider-track {
 		color: #9dd3e1;

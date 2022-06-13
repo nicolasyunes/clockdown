@@ -3,6 +3,12 @@
 	color: #ffff;
 }
 
+span{
+	font-family: myFirstFont;
+	color:#9dd3e1 ;
+	
+}
+
 .format-time {
 	display: flex;
 	flex-direction: row;
@@ -33,7 +39,7 @@
 	background: #18181a;
 	-moz-box-shadow: 0 0px 0px #4c4c4f;
 	-webkit-box-shadow: 0 0px 0px #4c4c4f;
-	box-shadow: 0 0.8px 0.8px #4c4c4f;
+	box-shadow: 10px 2px 0.8px #4c4c4f;
 	border-radius: 4px;
 	width: 100%;
 	justify-content: center;
@@ -50,8 +56,7 @@
 	width: 100%;
 	
 	height: auto !important;
-	box-shadow: 0px 1px 4px rgba(14, 31, 53, 0.12),
-		0px 4px 18px rgba(40, 53, 14, 0.1), 0px 6px 12px rgba(98, 99, 100, 0.08);
+
 }
 
 .content-timer {
@@ -60,7 +65,7 @@
 	display: flex;
 	background: #313131;
 	flex-direction: column;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .display {
